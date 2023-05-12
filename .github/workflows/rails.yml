@@ -14,7 +14,7 @@ jobs:
     - name: Set up Ruby 2.6
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.6.10' # Not needed with a .ruby-version file
+        ruby-version: '2.7.8' # Not needed with a .ruby-version file
     - name: Install system dependencies
       run: |
         sudo apt-get update
